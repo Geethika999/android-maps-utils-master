@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maps Utils Demo</string>
+    <string name="input_text">Looking for…</string>
+    <string name="button_send">Go!</string>
+    <string name="police_stations">Malaria</string>
+    <string name="medicare">Corona Virus</string>
+    <string name="attrib_format"> </string>
+    <string name="police_stations_url">0</string>
+    <string name="medicare_url">0</string>
+    <string name="kml_url">https://raw.githubusercontent.com/googlemaps/android-maps-utils/70a77b066b8391da06a2d708792de8337bf5d3b6/demo/src/main/res/raw/campus.kml</string>
+    <string name="geojson_url">https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson</string>
+    <string-array name="heatmaps_datasets_array">
+        <item>@string/police_stations</item>
+        <item>@string/medicare</item>
+    </string-array>
+    <string name="button_radius">Radius</string>
+    <string name="button_gradient">Gradient</string>
+    <string name="button_opacity">Opacity</string>
+</resources>
