@@ -34,17 +34,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
         mListView = findViewById(R.id.list);
-
-
-
-
         addDemo("View Map", HeatmapsDemoActivity.class);
-
-
-
-
     }
 
     private void addDemo(String demoName, Class<? extends Activity> activityClass) {

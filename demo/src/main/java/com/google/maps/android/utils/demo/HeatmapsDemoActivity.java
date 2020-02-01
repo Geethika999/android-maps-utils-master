@@ -162,7 +162,6 @@ public class HeatmapsDemoActivity extends BaseDemoActivity {
             String dataset = parent.getItemAtPosition(pos).toString();
 
             TextView attribution = findViewById(R.id.attribution);
-
             // Check if need to instantiate (avoid setData etc twice)
             if (mProvider == null) {
                 mProvider = new HeatmapTileProvider.Builder().data(
@@ -175,8 +174,7 @@ public class HeatmapsDemoActivity extends BaseDemoActivity {
                 mOverlay.clearTileCache();
             }
             // Update attribution
-            attribution.setText(Html.fromHtml(String.format(getString(R.string.attrib_format),
-                    mLists.get(dataset).getUrl())));
+            attribution.setText(Html.fromHtml(String.format(getString(R.string.attrib_format),mLists.get(dataset).getUrl())));
 
         }
 
